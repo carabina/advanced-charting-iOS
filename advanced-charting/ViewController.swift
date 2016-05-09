@@ -58,19 +58,19 @@ class ViewController: UIViewController, NSXMLParserDelegate, SChartDatasource {
     }
     
     func numberOfSeriesInSChart(chart: ShinobiChart) -> Int {
-        return 4
+        return 1
     }
     
     func sChart(chart: ShinobiChart, seriesAtIndex index: Int) -> SChartSeries {
         let lineSeries = SChartLineSeries()
         
-        //lineSeries.style().lineColor = UIColor.redColor()
+        lineSeries.style().lineColor = UIColor.redColor()
         lineSeries.style().lineWidth = 3
         
         lineSeries.dataSampler = ACKNthPointSampler(nthPoint: 500)
         //lineSeries.dataSampler = ACKRamerDouglasPeuckerSampler(epsilon: 30)
         
-        lineSeries.dataSmoother = ACKMidPointSmoother(numberOfPasses: index+1)
+        lineSeries.dataSmoother = ACKMidPointSmoother(numberOfPasses: 2)
         //lineSeries.dataSmoother = ACKCatmullRomSplineSmoother(numberOfSegments: index+1)
         
         return lineSeries
