@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2094FBDE1CDC86A000F6F18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2094FBDD1CDC86A000F6F18C /* AppDelegate.swift */; };
+		2094FBE01CDC86A000F6F18C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2094FBDF1CDC86A000F6F18C /* ViewController.swift */; };
+		2094FBE31CDC86A000F6F18C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2094FBE11CDC86A000F6F18C /* Main.storyboard */; };
+		2094FBE51CDC86A000F6F18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2094FBE41CDC86A000F6F18C /* Assets.xcassets */; };
+		2094FBE81CDC86A000F6F18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2094FBE61CDC86A000F6F18C /* LaunchScreen.storyboard */; };
+		2094FBF01CDC86B900F6F18C /* activity_1151910037.tcx in Resources */ = {isa = PBXBuildFile; fileRef = 2094FBEF1CDC86B900F6F18C /* activity_1151910037.tcx */; };
+		2094FBF21CDC916200F6F18C /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2094FBF11CDC916200F6F18C /* ShinobiCharts.framework */; };
+		2094FBF41CDC917B00F6F18C /* AdvancedChartingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2094FBF31CDC917B00F6F18C /* AdvancedChartingKit.framework */; };
+		2094FBF91CDC930100F6F18C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2094FBF81CDC930100F6F18C /* libc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2094FBDA1CDC86A000F6F18C /* advanced-charting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "advanced-charting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2094FBDD1CDC86A000F6F18C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2094FBDF1CDC86A000F6F18C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2094FBE21CDC86A000F6F18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2094FBE41CDC86A000F6F18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2094FBE71CDC86A000F6F18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2094FBE91CDC86A000F6F18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2094FBEF1CDC86B900F6F18C /* activity_1151910037.tcx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = activity_1151910037.tcx; sourceTree = "<group>"; };
+		2094FBF11CDC916200F6F18C /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiCharts.framework; sourceTree = "<group>"; };
+		2094FBF31CDC917B00F6F18C /* AdvancedChartingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdvancedChartingKit.framework; sourceTree = "<group>"; };
+		2094FBF51CDC919700F6F18C /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		2094FBF81CDC930100F6F18C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2094FBD71CDC86A000F6F18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2094FBF91CDC930100F6F18C /* libc++.tbd in Frameworks */,
+				2094FBF21CDC916200F6F18C /* ShinobiCharts.framework in Frameworks */,
+				2094FBF41CDC917B00F6F18C /* AdvancedChartingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2094FBD11CDC86A000F6F18C = {
+			isa = PBXGroup;
+			children = (
+				2094FC001CE09E3D00F6F18C /* Frameworks */,
+				2094FBEF1CDC86B900F6F18C /* activity_1151910037.tcx */,
+				2094FBDC1CDC86A000F6F18C /* advanced-charting */,
+				2094FBDB1CDC86A000F6F18C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2094FBDB1CDC86A000F6F18C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2094FBDA1CDC86A000F6F18C /* advanced-charting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2094FBDC1CDC86A000F6F18C /* advanced-charting */ = {
+			isa = PBXGroup;
+			children = (
+				2094FBDD1CDC86A000F6F18C /* AppDelegate.swift */,
+				2094FBDF1CDC86A000F6F18C /* ViewController.swift */,
+				2094FBE11CDC86A000F6F18C /* Main.storyboard */,
+				2094FBE41CDC86A000F6F18C /* Assets.xcassets */,
+				2094FBE61CDC86A000F6F18C /* LaunchScreen.storyboard */,
+				2094FBE91CDC86A000F6F18C /* Info.plist */,
+			);
+			path = "advanced-charting";
+			sourceTree = "<group>";
+		};
+		2094FC001CE09E3D00F6F18C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2094FBF51CDC919700F6F18C /* BridgingHeader.h */,
+				2094FBF31CDC917B00F6F18C /* AdvancedChartingKit.framework */,
+				2094FBF11CDC916200F6F18C /* ShinobiCharts.framework */,
+				2094FBF81CDC930100F6F18C /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2094FBD91CDC86A000F6F18C /* advanced-charting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2094FBEC1CDC86A000F6F18C /* Build configuration list for PBXNativeTarget "advanced-charting" */;
+			buildPhases = (
+				2094FBD61CDC86A000F6F18C /* Sources */,
+				2094FBD71CDC86A000F6F18C /* Frameworks */,
+				2094FBD81CDC86A000F6F18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "advanced-charting";
+			productName = "advanced-charting";
+			productReference = 2094FBDA1CDC86A000F6F18C /* advanced-charting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2094FBD21CDC86A000F6F18C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = shinobicontrols;
+				TargetAttributes = {
+					2094FBD91CDC86A000F6F18C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2094FBD51CDC86A000F6F18C /* Build configuration list for PBXProject "advanced-charting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2094FBD11CDC86A000F6F18C;
+			productRefGroup = 2094FBDB1CDC86A000F6F18C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2094FBD91CDC86A000F6F18C /* advanced-charting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2094FBD81CDC86A000F6F18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2094FBF01CDC86B900F6F18C /* activity_1151910037.tcx in Resources */,
+				2094FBE81CDC86A000F6F18C /* LaunchScreen.storyboard in Resources */,
+				2094FBE51CDC86A000F6F18C /* Assets.xcassets in Resources */,
+				2094FBE31CDC86A000F6F18C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2094FBD61CDC86A000F6F18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2094FBE01CDC86A000F6F18C /* ViewController.swift in Sources */,
+				2094FBDE1CDC86A000F6F18C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2094FBE11CDC86A000F6F18C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2094FBE21CDC86A000F6F18C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2094FBE61CDC86A000F6F18C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2094FBE71CDC86A000F6F18C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2094FBEA1CDC86A000F6F18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2094FBEB1CDC86A000F6F18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2094FBED1CDC86A000F6F18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "advanced-charting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scottlogic.advanced-charting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+			};
+			name = Debug;
+		};
+		2094FBEE1CDC86A000F6F18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "advanced-charting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scottlogic.advanced-charting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2094FBD51CDC86A000F6F18C /* Build configuration list for PBXProject "advanced-charting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2094FBEA1CDC86A000F6F18C /* Debug */,
+				2094FBEB1CDC86A000F6F18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2094FBEC1CDC86A000F6F18C /* Build configuration list for PBXNativeTarget "advanced-charting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2094FBED1CDC86A000F6F18C /* Debug */,
+				2094FBEE1CDC86A000F6F18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2094FBD21CDC86A000F6F18C /* Project object */;
+}
