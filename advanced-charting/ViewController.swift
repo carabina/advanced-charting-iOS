@@ -67,7 +67,7 @@ class ViewController: UIViewController, NSXMLParserDelegate, SChartDatasource {
         lineSeries.style().lineColor = UIColor.redColor()
         lineSeries.style().lineWidth = 3
         
-        //lineSeries.dataSampler = ACKNthPointSampler(nthPoint: 500)
+        lineSeries.dataSampler = ACKNthPointSampler(nthPoint: 500)
         //lineSeries.dataSampler = ACKRamerDouglasPeuckerSampler(epsilon: 30)
         
         return lineSeries
