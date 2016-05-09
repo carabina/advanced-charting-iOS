@@ -35,7 +35,8 @@ class ViewController: UIViewController, NSXMLParserDelegate, SChartDatasource {
         chart.title = "Heart Rate during run"
         chart.titleLabel.font = UIFont(name: "HelveticaNeue-CondensedBold", size: 40)
         
-        chart.backgroundColor = .clearColor()
+        chart.backgroundColor = UIColor(white: 0.9, alpha: 1)
+        chart.plotAreaBackgroundColor = UIColor(white: 0.9, alpha: 1)
         
         chart.datasource = self
         
@@ -62,10 +63,22 @@ class ViewController: UIViewController, NSXMLParserDelegate, SChartDatasource {
     }
     
     func sChart(chart: ShinobiChart, seriesAtIndex index: Int) -> SChartSeries {
+
+        let gradientColors: [UIColor] = [UIColor(red: 239/255, green: 83/255, blue: 80/255, alpha:0.85),
+                                         UIColor(red: 239/255, green: 83/255, blue: 80/255, alpha: 1)]
+        let gradientLocations = [0.75, 0.9]
+        
         let lineSeries = SChartLineSeries()
         
-        lineSeries.style().lineColor = UIColor.redColor()
-        lineSeries.style().lineWidth = 3
+        let advancedLineStyle = ACKLineSeriesStyle()
+        advancedLineStyle.gradientColors = gradientColors
+        advancedLineStyle.gradientLocations = gradientLocations
+        advancedLineStyle.gradientOrientation = .Vertical
+        
+        lineSeries.setStyle(advancedLineStyle)
+        lineSeries.style().showFill = true
+        lineSeries.style().areaLineColor = .blackColor()
+        lineSeries.style().areaLineWidth = 1
         
         lineSeries.dataSampler = ACKNthPointSampler(nthPoint: 500)
         //lineSeries.dataSampler = ACKRamerDouglasPeuckerSampler(epsilon: 30)
